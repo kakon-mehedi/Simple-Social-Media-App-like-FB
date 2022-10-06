@@ -1,0 +1,110 @@
+.topbarContainer{
+    display: flex;
+    background-color: teal;
+    height: 50px;
+    top: 0;
+    z-index: 999;
+    color: white;
+    align-items: center;
+    position: sticky;
+}
+
+.topbarLeft{
+    flex: 3;
+    cursor: pointer;
+}
+
+.topbarLogo{
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+
+.topbarCenter{
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    flex: 5;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.searchIcon{
+    color: grey;
+    margin-left: 10px;
+}
+
+.searchInput{
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.topbarRightList{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+   
+}
+
+.topbarRightListItem{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.topbarRightIconsList{
+    display: flex;
+    align-items: center;
+    
+}
+
+.topbarRightIconItem{
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.topbarRightIconNumber{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.profilePicture{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+

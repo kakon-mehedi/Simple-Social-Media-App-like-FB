@@ -1,0 +1,80 @@
+.share{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.share-top{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.share-profile-picture{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+   
+}
+
+.share-caption{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.share-hr{
+    margin: 10px 0;
+}
+
+.share-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.share-icon-list{
+    display: flex;
+    
+}
+
+.share-icon-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.share-icon{
+   margin-right: 3px;
+}
+
+.share-icon-text{
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+
+.share-button{
+    background-color: rgb(32, 143, 32);
+    color: white;
+    outline: 0;
+    border: 0;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+

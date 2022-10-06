@@ -1,0 +1,22 @@
+
+.sidebarFriend:hover{
+    cursor: pointer;
+}
+
+.sidebarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriendImage{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+
+.sidebarFriendName{
+    margin-left: 10px;
+}

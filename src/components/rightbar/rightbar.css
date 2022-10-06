@@ -1,0 +1,88 @@
+.rightbar{
+    flex: 3.5;
+    
+}
+
+.rightbar-wrapper{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.birthday-section{
+    display: flex;
+    align-items: center;
+}
+
+.gift-img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.birthday-text{
+    color: grey;
+}
+
+.bold-text{
+    color: black;
+    font-weight: bold;
+}
+
+.rightbar-img{
+    margin: 20px 0;
+    width: 100%;
+    max-height: 350px;
+    border-radius: 10px;
+    
+}
+
+.online-friends-text{
+    font-weight: 500;
+}
+
+
+.online-friends{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.friend-img-box{
+    position: relative;
+}
+
+
+.friend-img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  
+}
+
+.online-status-symbol{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: lightgreen;
+    right: -5px;
+    top: -1px;
+    z-index: 5;
+    border: 2px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+.online-friend-name{
+    margin-left: 10px;
+}
+
+
+
+
+
