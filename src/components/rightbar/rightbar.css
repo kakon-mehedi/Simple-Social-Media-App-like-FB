@@ -139,19 +139,3 @@
      
 }
 
-
-.friend-images{
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-    
-}
-
-.friend-name{
-    margin-top: 5px;
-    font-size: 14px;
-    
-    
-}
-
