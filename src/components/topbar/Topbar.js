@@ -1,14 +1,19 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
 import './topbar.css'
 import {Search,Person,Message,Notifications } from '@mui/icons-material'
 
 
 
 function Topbar() {
+  const navigate = useNavigate();
+
+
   return (
     <div className='topbarContainer'>
         <div className="topbarLeft">
-          <span className='topbarLogo'>K-mSocial</span>
+          <span className='topbarLogo' onClick={()=> navigate('/')}>K-mSocial</span>
         </div>
         <div className="topbarCenter">
           <Search className='searchIcon' />
@@ -16,8 +21,8 @@ function Topbar() {
         </div>
         <div className="topbarRight">
           <ul className="topbarRightList">
-            <li className="topbarRightListItem">Homepage</li>
-            <li className="topbarRightListItem">Timeline</li>
+            <li className="topbarRightListItem" onClick={()=> navigate('/')}>Homepage</li>
+            <li className="topbarRightListItem" onClick={()=> navigate('/profile')}>Timeline</li>
           </ul>
 
           <div className="topbarRightIconsList">
@@ -39,7 +44,7 @@ function Topbar() {
             
           </div>
 
-          <img src='/assets/person/1.jpeg' alt="profileImage" className="profilePicture" />
+          <img src='/assets/person/1.jpeg' alt="profileImage" className="profilePicture" onClick={()=> navigate('/profile')} />
         </div>
     </div>
   )
