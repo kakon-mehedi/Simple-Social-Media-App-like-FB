@@ -1,5 +1,5 @@
 .rightbar{
-    flex: 3.5;
+    flex: 3;
     
 }
 
@@ -7,6 +7,8 @@
     padding: 20px;
     margin-top: 20px;
 }
+
+/* HOME RIGHTBAR STARTS  */
 
 .birthday-section{
     display: flex;
@@ -82,7 +84,74 @@
     margin-left: 10px;
 }
 
+/* HOME RIGHTBAR ENDS  */
 
 
 
+/* PROFILE RIGHTBAR STARTS  */
+
+
+.profile-bottom-right{
+    flex: 3;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.profile-section-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-information-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.user-info-text{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.user-friends-text{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.user-friend-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;       
+}
+
+.user-friend-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+     
+}
+
+
+.friend-images{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.friend-name{
+    margin-top: 5px;
+    font-size: 14px;
+    
+    
+}
 
